@@ -1,4 +1,4 @@
-# PyTorch on Multi GPUs
+# Running PyToch moodel on multiple GPUs
 Test code for using multiple GPU via pytorch. Codes are mainly from [https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html]
 
 You can find the environment setup for mutiple GPUs on this [repo](https://github.com/JiahongChen/Set-up-deep-learning-frameworks-with-GPU-on-Google-Cloud-Platform).
