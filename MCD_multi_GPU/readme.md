@@ -1,4 +1,4 @@
-# Running PyToch moodel on multiple GPUs
+# Running [Maximum Classifier Discrepancy for Domain Adaptation](https://github.com/mil-tokyo/MCD_DA) on multiple GPUs
 
 The code in this repo was modified from [MCD_DA](https://github.com/mil-tokyo/MCD_DA).
 
