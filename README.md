@@ -7,7 +7,7 @@ You only need to warp your model using ```torch.nn.DataParallel``` function:
 ```
 model = nn.DataParallel(model)
 ```
-You may check codes [here](https://github.com/JiahongChen/multiGPU/blob/master/testMultiGPU.py) to test your multiple GPU environment. These codes are mainly from this [tutorial](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html)
+You may check codes [here](https://github.com/JiahongChen/multiGPU/blob/master/testMultiGPU.py) to test your multiple GPU environment. These codes are mainly from this [tutorial](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html).
 
 
 Sample codes to run deep learning model are provided [in this folder](https://github.com/JiahongChen/multiGPU/tree/master/MCD_multi_GPU), which replicates the paper [Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Saito_Maximum_Classifier_Discrepancy_CVPR_2018_paper.pdf).
