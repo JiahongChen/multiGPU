@@ -8,7 +8,7 @@ You only need to warp your model using ```torch.nn.DataParallel``` function:
 ```
 model = nn.DataParallel(model)
 ```
-You may check codes here or [in this folder](https://github.com/JiahongChen/multiGPU/tree/master/MCD_multi_GPU).
+You may check codes [here](https://github.com/JiahongChen/multiGPU/blob/master/testMultiGPU.py) or [in this folder](https://github.com/JiahongChen/multiGPU/tree/master/MCD_multi_GPU) to test your multiple GPU environment.
 
 ## Error: 'DataParallel' object has no attribute 'xxx'
 Instead of using model.xxx, access the model attributes by model.module.xxx.
