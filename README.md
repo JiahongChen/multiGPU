@@ -8,7 +8,7 @@ You only need to warp your model using ```torch.nn.DataParallel``` function:
 ```
 model = nn.DataParallel(model)
 ```
-You may check codes on [https://github.com/JiahongChen/MCD_DA/blob/master/visda_classification]
+You may check codes here or [in this folder](https://github.com/JiahongChen/multiGPU/tree/master/MCD_multi_GPU).
 
 ## Error: 'DataParallel' object has no attribute 'xxx'
 Instead of using model.xxx, access the model attributes by model.module.xxx.
