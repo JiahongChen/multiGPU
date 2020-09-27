@@ -8,7 +8,9 @@ You only need to warp your model using ```torch.nn.DataParallel``` function:
 ```
 model = nn.DataParallel(model)
 ```
-You may check codes [here](https://github.com/JiahongChen/multiGPU/blob/master/testMultiGPU.py) or [in this folder](https://github.com/JiahongChen/multiGPU/tree/master/MCD_multi_GPU) to test your multiple GPU environment.
+You may check codes [here](https://github.com/JiahongChen/multiGPU/blob/master/testMultiGPU.py) to test your multiple GPU environment.
+
+Sample code to run deep learning model is provided [in this folder](https://github.com/JiahongChen/multiGPU/tree/master/MCD_multi_GPU), which replicates the paper [Maximum Classifier Discrepancy for Unsupervised Domain Adaptation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Saito_Maximum_Classifier_Discrepancy_CVPR_2018_paper.pdf).
 
 ## Error: 'DataParallel' object has no attribute 'xxx'
 Instead of using model.xxx, access the model attributes by model.module.xxx.
